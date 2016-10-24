@@ -4,6 +4,7 @@ So...When most people try to learn code in 2016...
 
 Notes:
 Warm up the audience
+
 ===
 
 #You expect this...

@@ -8,8 +8,9 @@ Who am I, why should you trust me?
 ===
 
 #I am Aaron Turner
-###aaronthedev
-###torch2424
+a.k.a aaronthedev, a.k.a torch2424
+
+
 ![Aaronthedev](../images/aaronTheDev.png)
 
 Notes:
@@ -19,13 +20,13 @@ Introduce myself and my internet aliases
 
 #My Stack
 * Frontend developer
-..* The "look-and-feel" of apps and stuff
-* AngularJS/Ionic/Electron
-..* Powerful Javascript frameworks for the modern web
-* Unity
-..* Super awesome game engine
-* Golang
-..* Extremely fast, very awesome language by Google
+  * The "look-and-feel" of apps and stuff
+* [AngularJS](https://angularjs.org/)/[Ionic](http://ionicframework.com/)/[Electron](http://electron.atom.io/)
+  * Powerful Javascript frameworks for the modern web
+* [Unity](https://unity3d.com/)
+  * Super awesome game engine
+* [Golang](https://golang.org/)
+  * Extremely fast, very awesome language by Google
 
 Notes:
 Explain what framework thingy is
@@ -44,14 +45,14 @@ Talk about what i did at each place, and say I'm going to google
 ===
 
 #Cool Projects
-* Flyxer
-..* Live music performance in AngularJS/Electron
-* ChipGo
-..* Chip-8 CPU emulator written in Golang
-* Super Punch Legacy
-..* Top-Down Action Arcade game, you punch stuff, it explodes
-* Stats Monitor Widget
-..* Customizable Android System Monitor widget that sits on your home screen.
+* [Flyxer](https://www.youtube.com/watch?v=7IH5IboZpwQ)
+  * Live music performance in AngularJS/Electron
+* [ChipGo](https://github.com/torch2424/chipGo)
+  * Chip-8 CPU emulator written in Golang
+* [Super Punch Legacy](https://nocomplygames.com/games/)
+  * Top-Down Action Arcade game, you punch stuff, it explodes
+* [Stats Monitor Widget](https://play.google.com/store/apps/details?id=com.torch2424.statsmonitorwidgetFree&hl=en)
+  * Customizable Android System Monitor widget that sits on your home screen.
 
 Notes:
 Explain some of the cool stuff I did, that they could do to.
