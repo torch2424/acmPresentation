@@ -1,3 +1,13 @@
 .slides section {
-    background:rgba(0,0,0,0.9);
+    background:rgba(0,0,0,0.925);
+    border-radius: 3px;
+    zoom: 87%;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.reveal img {
+    width: auto;
+    height: auto;
+    max-height: 335px !important;
 }

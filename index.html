@@ -27,9 +27,18 @@
 <body ng-app="angularSlides">
 	<div class="reveal">
 		<div ng-controller="slideController" class="slides">
-			<!-- Ng-include all of our slides, either as .md or html! -->
-			<section ng-include="'slides/intro.md'"></section>
-			<section ng-include="'slides/slide2.md'"></section>
+			<!-- Use Reveal's data-markdown for markdown slides, and ng-include for html slides -->
+			<!-- Intro -->
+			<section data-markdown="slides/intro.md" data-separator-notes="^Notes:"></section>
+
+			<!-- What you expect vs. what you get, data seperator for having multiple slides in one file -->
+			<section data-markdown="slides/expect.md" data-separator-vertical="^\n===\n$" data-separator-notes="^Notes:"></section>
+
+			<!-- Why am I giving this talk, and why you should listen -->
+			<section data-markdown="slides/purpose.md" data-separator-vertical="^\n===\n$" data-separator-notes="^Notes:"></section>
+
+			<!-- Who am I? -->
+			<section data-markdown="slides/whoAreYou.md" data-separator-vertical="^\n===\n$" data-separator-notes="^Notes:"></section>
 
 		</div>
 	</div>
@@ -42,6 +51,18 @@
 			app.controller("slideController", ["$scope", function($scope) {
 				$scope.secret = "You found me! ;)"
 			}]);
+
+			//Include external files without tags
+			app.directive('includeReplace', function() {
+				return {
+					require: 'ngInclude',
+					restrict: 'A',
+					/* optional */
+					link: function(scope, el, attrs) {
+						el.replaceWith(el.children());
+					}
+				};
+			});
 		})();
 	</script>
 
@@ -53,6 +74,15 @@
 		// More info https://github.com/hakimel/reveal.js#configuration
 		Reveal.initialize({
 			history: true,
+
+			// Number of slides away from the current that are visible
+			viewDistance: 2,
+
+			// Enables touch navigation on devices with touch input
+			touch: true,
+
+			// Vertical centering of slides
+			center: true,
 
 			// Parallax background image
 			parallaxBackgroundImage: 'images/codeBgDark.png', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
