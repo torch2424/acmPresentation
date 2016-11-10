@@ -36,6 +36,7 @@ Explain what framework thingy is
 ===
 
 #Professional Experience
+* DHAP Digital (present)
 * Amazon Internship on Alexa Developer Experience (3 mos)
 * Localism (9 mos)
 * Kondeo Development (1 yr, 4 mos)
